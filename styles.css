@@ -1,0 +1,71 @@
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+.outer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qrcode {
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align:middle;
+    width: 320px;
+    height: 500px;
+    border-radius: 18px;
+    display: flexbox;
+    align-items: center;
+    /* border-color: yellow;
+    border-width: 2px;
+    border-style: dashed; */
+}
+.img_div {
+    position: relative;
+    height: 290px;
+    width: 290px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    /* border-color: tomato;
+    border-width: 2px;
+    border-style: dashed; */
+    border-radius: 10px;
+}
+.main_img {
+    border-radius: 9px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    font-family: Outfit;
+    font-size: 15px;
+    text-align: center;
+    margin:14px;
+    align-self: bottom;
+    width: 260px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    /* border-color: cyan;
+    border-width: 2px;
+    border-style: dashed;  */
+}
+
+h2 {
+    color: hsl(218, 44%, 22%);
+    font-size: 21px;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}
